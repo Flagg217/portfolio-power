@@ -1,0 +1,9 @@
+* {
+    box-sizing: flex;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
