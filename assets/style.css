@@ -71,8 +71,10 @@ name {
     flex: 1 1 0;
     gap: 0;
 }
-.s1 {
+#portfolio .s1 {
     background-color: rgba(128, 128, 128, 0.233);
+    color: black;
+    justify-content: left;
     text-align: center;
     border-radius: 0;
     padding: 15px;
