@@ -7,11 +7,8 @@ body {
 }
 
 header {
-    background-color: #2a607c;
-    color: #ffffff;
-    padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -40,16 +37,6 @@ article {
     background-color: #f1f1f1;
     height: 300px;
 }
-
-#hero {
-    height: 50px;
-    width: 10%;
-    margin-bottom: 20px;
-    background-image: url(../assets/mountain.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
 main {
     color: ffffff;
     display: flex;
@@ -66,6 +53,7 @@ main {
 }
 .words {
     padding: 20px;
+    width: 70%;
 }
 
 .item {
