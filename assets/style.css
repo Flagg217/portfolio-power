@@ -64,12 +64,16 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.words {
+    padding: 20px;
+}
 
 .item {
     padding: 20px;
     display: flex;
     flex-direction: row;
     border: 1px solid #ccc;
+    outline-width: 20px;
     justify-content: space-between;
     margin-bottom: 20px;
 }
