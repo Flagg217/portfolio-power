@@ -12,7 +12,15 @@ header {
     align-items: center;
 
 }
-
+.meImage img{
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px;
+    max-height: 400px;
+    float: right;
+    margin-right: 10px;
+  }
 header h1 {
     font-size: 40px;
 }
