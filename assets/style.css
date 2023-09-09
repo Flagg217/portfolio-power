@@ -47,7 +47,7 @@ main {
 
 .gallery {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -55,7 +55,6 @@ main {
     padding: 20px;
     width: 70%;
 }
-
 .item {
     padding: 20px;
     display: flex;
@@ -65,10 +64,16 @@ main {
     justify-content: space-between;
     margin-bottom: 20px;
 }
-
+#link img {
+    object-fit: fill;
+    width: 90%;
+    height: 90%;
+    margin-right: 10px;
+}
 .item img {
-    width: 50%;
-    height: 50%;
+    object-fit: fill;
+    width: 40%;
+    height: 40%;
     margin-right: 10px;
 }
 
